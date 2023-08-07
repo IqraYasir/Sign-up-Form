@@ -23,12 +23,22 @@ body {
 
 .logo {
     position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    width: 654px;
+    height: 18vh;
     top: 20px;
-    left: 20px;
+    text-align: center;
+    line-height: 11rem;
+    font-size: 5rem;
 }
 
 .image_logo {
-    height: 30vh;
+    position: absolute;
+    top: 35px;
+    left: 105px;
+    height: 15vh;
 }
 
 .right_side {
