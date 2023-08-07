@@ -24,3 +24,12 @@ img {
 form {
     width: 500px;
 }
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
