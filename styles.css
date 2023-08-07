@@ -1,0 +1,26 @@
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+body {
+    margin: 0;
+    display: flex;
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    background-color: transparent;
+}
+
+img {
+    height: 100vh;
+}
+
+form {
+    width: 500px;
+}
