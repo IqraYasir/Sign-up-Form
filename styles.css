@@ -3,14 +3,37 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   
-body {
-    margin: 0;
+body, .form_info, label, .row, .right_side {
     display: flex;
 }
 
-.right_side {
-    display: flex;
+.right_side, .form_info, label {
     flex-direction: column;
+}
+
+body {
+    margin: 0;
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right_side {
+    gap: 50px;
+}
+
+header {
+    padding: 40px;
+    padding-top: 120px;
+}
+
+input:focus {
+    border: lightskyblue 1px solid;
+    box-shadow: inset;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 0;
 }
 
 a {
@@ -21,15 +44,17 @@ img {
     height: 100vh;
 }
 
-form {
-    width: 500px;
+label {
+    font-size: 0.75rem;
 }
 
-label {
-    display: flex;
-    flex-direction: column;
+.form_info {
+    padding: 15px 20px;
+    gap: 16px;
+    background-color: white;
+    box-shadow: 3px 3px 3px #888888;
 }
 
 .row {
-    display: flex;
+    gap: 24px;
 }
