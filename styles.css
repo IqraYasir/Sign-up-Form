@@ -50,9 +50,15 @@ header {
     padding-top: 120px;
 }
 
+input {
+    border: #E5E7EB 1px solid;
+    border-radius: 7px;
+    height: 20px;
+}
+
 input:focus {
-    border: lightskyblue 1px solid;
-    box-shadow: inset;
+    background-color: rgb(178, 222, 250);
+    box-shadow: 2px 2px 2px #888888;
 }
 
 h3 {
